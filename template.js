@@ -15,7 +15,7 @@ var tTemplateEngine = (function (application) {
         /**
          *
          * Accepts the id of the template or an html string or a DOM
-         * object or a jquery object clones the element, (removes id
+         * object or a jquery object, clones the element, (removes id
          * if *Template and substitute with class *)
          * and finally injects content as defined into 'variables'.
          * It is possible to define html content and/or attributes.
